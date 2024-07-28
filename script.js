@@ -12,7 +12,7 @@ function calculatorBMI() { // ИМТ
     if (bmi > 0 && bmi < 18.5) {
       description.innerHTML = "Недостаточный вес";
     } else if (bmi >= 18.5 && bmi < 25) {
-      description.innerHTML = "Нормальый вес"
+      description.innerHTML = "Нормальный вес"
     } else if (bmi >= 25 && bmi < 30) {
       description.innerHTML = "Избыточный вес"
     } else if (bmi >= 30 && bmi < 35) {
